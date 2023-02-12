@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+
+header {
+    padding-right: 20px;    
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 90px;
+    background-color: #be0c4d;
+    justify-content:space-between;
+    margin-bottom: 50px;
+}
+
+header nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav .nav-right-section {
+    margin-top: 60px;
+    width: 650px;
+    height: 5vh;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+    font-weight: bolder;
+}
+
+nav .nav-right-section a {
+    margin-right: 30px;    
+    color: white; 
+    cursor: pointer;
+}
+
+header section img {
+    height: 100px;
+}
+
+
+main {    
+    position: relative;    
+    width: 100%;    
+}
+
+main section.logo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+form{     
+    display: grid;
+    grid-template-columns: 30% 30%;
+    grid-template-rows: 75px 75px 75px;
+    grid-auto-flow: row;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+form div{
+    display: flex;
+    justify-content: center;
+}
+
+main section div.main-buttons {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+main section div.main-buttons button{
+    width: 150px;
+    height: 35px;
+    margin-left: 10px;
+    font-size: 1.4rem;    
+    color: white;
+    background-color: #be0c4d;
+    border-radius: 5%;
+    cursor: pointer;
+    border: none;
+}
+
+label{
+    font-size: 1.4rem;
+    display: inline-block;
+    width: 100px;
+    font-weight: bolder;
+}
+
+input {    
+    font-weight: lighter;
+    width: 300px;
+    height: 30px;
+    border-width: 1px;
+}
+
+footer {
+    padding-left: 5px;
+    padding-right: 5px;    
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 7.4vh;
+    background-color: #be0c4d;
+    justify-content:space-between;
+    align-items: center;
+}
+
+footer section p{
+    font-size: 2.8rem;
+    font-weight: bolder;
+    color: white;
+}
+
+footer section img {
+    height: 40px;
+}
